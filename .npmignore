@@ -1,0 +1,8 @@
+.vscode
+examples
+tests
+*rc.js
+*.code-workspace
+.nyc_output
+coverage
+*.tgz

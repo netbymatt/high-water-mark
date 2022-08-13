@@ -1,0 +1,43 @@
+{
+	"name": "high-water-mark",
+	"version": "1.0.0",
+	"description": "Zero-dependency tracking of a high water mark over a series of values with configurable options including a low water mark.",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "mocha",
+		"coverage": "nyc mocha",
+		"docs": "node ./jsdocrc.js",
+		"lint": "eslint **/*.js",
+		"lint:fix": "eslint --fix **/*.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/netbymatt/high-water-mark.git"
+	},
+	"keywords": [
+		"high",
+		"water",
+		"mark",
+		"statistics",
+		"time",
+		"count"
+	],
+	"author": "Matt Walsh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/netbymatt/high-water-mark/issues"
+	},
+	"homepage": "https://github.com/netbymatt/high-water-mark#readme",
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"eslint": "^8.21.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"jsdoc-to-markdown": "^7.1.1",
+		"mocha": "^10.0.0",
+		"nyc": "^15.1.0"
+	},
+	"engines": {
+		"node": ">=13.0.0"
+	}
+}

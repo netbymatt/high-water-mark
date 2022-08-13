@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"mocha.files.glob": "tests/**/*.js",
+		"mocha.options": {
+			"ui": "bdd",
+		},
+		"mocha.coverage": {
+			"enable": true,
+			"decoration": true,
+			"runWithInterval": false,
+			"autoUpdateInterval": 20000,
+			"activeOnStart": true,
+			"runAfterTest": false,
+			"runCoverageAfterFileSave": false,
+			"reporters": []
+		}
+	}
+}
